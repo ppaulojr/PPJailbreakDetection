@@ -1,0 +1,6 @@
+framework module PPJailbreakDetection2 {
+  umbrella header "PPJailbreakDetection2-umbrella.h"
+
+  export *
+  module * { export * }
+}

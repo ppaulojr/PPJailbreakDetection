@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PPJailbreakDetection2_Tests' do
+  pod 'PPJailbreakDetection2', :path => '../'
+  
+  
+end

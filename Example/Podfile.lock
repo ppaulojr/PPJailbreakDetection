@@ -1,0 +1,16 @@
+PODS:
+  - PPJailbreakDetection2 (0.1.0)
+
+DEPENDENCIES:
+  - PPJailbreakDetection2 (from `../`)
+
+EXTERNAL SOURCES:
+  PPJailbreakDetection2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PPJailbreakDetection2: faee104838e4b9563dfe2b3fffc58265d316eea7
+
+PODFILE CHECKSUM: 1c1b2588cdad4c34e8e6c613b8c430276439a8fa
+
+COCOAPODS: 1.2.0
