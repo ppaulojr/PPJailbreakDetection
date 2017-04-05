@@ -17,7 +17,7 @@
                BlueprintIdentifier = "6003F589195388D20070C39A"
                BuildableName = "PPJailbreakDetection2_Example.app"
                BlueprintName = "PPJailbreakDetection2_Example"
-               ReferencedContainer = "container:PPJailbreakDetection2.xcodeproj">
+               ReferencedContainer = "container:PPJailbreakDetection.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "PPJailbreakDetection2_Tests.xctest"
-               BlueprintName = "PPJailbreakDetection2_Tests"
-               ReferencedContainer = "container:PPJailbreakDetection2.xcodeproj">
+               BuildableName = "PPJailbreakDetection_Tests.xctest"
+               BlueprintName = "PPJailbreakDetection_Tests"
+               ReferencedContainer = "container:PPJailbreakDetection.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "6003F589195388D20070C39A"
             BuildableName = "PPJailbreakDetection2_Example.app"
             BlueprintName = "PPJailbreakDetection2_Example"
-            ReferencedContainer = "container:PPJailbreakDetection2.xcodeproj">
+            ReferencedContainer = "container:PPJailbreakDetection.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -68,7 +68,7 @@
             BlueprintIdentifier = "6003F589195388D20070C39A"
             BuildableName = "PPJailbreakDetection2_Example.app"
             BlueprintName = "PPJailbreakDetection2_Example"
-            ReferencedContainer = "container:PPJailbreakDetection2.xcodeproj">
+            ReferencedContainer = "container:PPJailbreakDetection.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -87,7 +87,7 @@
             BlueprintIdentifier = "6003F589195388D20070C39A"
             BuildableName = "PPJailbreakDetection2_Example.app"
             BlueprintName = "PPJailbreakDetection2_Example"
-            ReferencedContainer = "container:PPJailbreakDetection2.xcodeproj">
+            ReferencedContainer = "container:PPJailbreakDetection.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
