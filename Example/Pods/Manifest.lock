@@ -1,16 +1,16 @@
 PODS:
-  - PPJailbreakDetection2 (0.1.0)
+  - PPJailbreakDetection (1.0.0)
 
 DEPENDENCIES:
-  - PPJailbreakDetection2 (from `../`)
+  - PPJailbreakDetection (from `../`)
 
 EXTERNAL SOURCES:
-  PPJailbreakDetection2:
+  PPJailbreakDetection:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PPJailbreakDetection2: faee104838e4b9563dfe2b3fffc58265d316eea7
+  PPJailbreakDetection: 72ec6c5b95aab9ecfbc7c11403f2d1eea7d39952
 
-PODFILE CHECKSUM: 1c1b2588cdad4c34e8e6c613b8c430276439a8fa
+PODFILE CHECKSUM: 8b175469386969ec9e6c9452d080eb223710262e
 
 COCOAPODS: 1.2.0

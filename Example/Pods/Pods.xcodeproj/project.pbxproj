@@ -7,102 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		003646325333B81A8BF311A227366B83 /* Pods-PPJailbreakDetection2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E0CBA1D84E3A239D9CFC0305BBF903 /* Pods-PPJailbreakDetection2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A53BA9C0818E90B1D0D2126AC661BE7 /* PPJailbreakDetection2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4EE38AF7F240439A58BE700567B330 /* PPJailbreakDetection2-dummy.m */; };
-		0F7D3F9703E0A70D6C8D25A2A9E14308 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		154E9E9DF561C9757BF24FF270DF014C /* PPJailbreakDetection2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8EDC8EC029123161BE923F60C60892C /* PPJailbreakDetection2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82C1B5F01E8EBBE500294AA2 /* PPJailbreakDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C1B5EE1E8EBBE500294AA2 /* PPJailbreakDetection.h */; };
-		82C1B5F11E8EBBE500294AA2 /* PPJailbreakDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C1B5EE1E8EBBE500294AA2 /* PPJailbreakDetection.h */; };
-		82C1B5F21E8EBBE500294AA2 /* PPJailbreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C1B5EF1E8EBBE500294AA2 /* PPJailbreakDetection.m */; };
-		82C1B5F31E8EBBE500294AA2 /* PPJailbreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C1B5EF1E8EBBE500294AA2 /* PPJailbreakDetection.m */; };
-		C85067FDAE145FFE02394BD7961E331F /* Pods-PPJailbreakDetection2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3975365659A8E8461EE97F1BAEF6FC /* Pods-PPJailbreakDetection2_Tests-dummy.m */; };
-		D92E98609B8AA613A6C7130A66B0B17A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3FCFAECE7EFB330C767E7D1C614890F4 /* PPJailbreakDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 15A68267F0B590508309FEF2C63AC8C5 /* PPJailbreakDetection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FB2147E9A9415AD1AD754FF6BC55240 /* Pods-PPJailbreakDetection_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E518C66104AC49BD24F77E4C65D66648 /* Pods-PPJailbreakDetection_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75CD48088DA49F5888FFF0492046A6FB /* PPJailbreakDetection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9BC206A77B998A3D50DAFEFC77D996 /* PPJailbreakDetection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A2620A6240FD298DE99859607B9FF46 /* PPJailbreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBB2034D7E71E39DF5323F5685C9C6 /* PPJailbreakDetection.m */; };
+		8436710B698AE487EE246476938D685D /* Pods-PPJailbreakDetection_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 425911144844E0DA4030062E1303A1AD /* Pods-PPJailbreakDetection_Tests-dummy.m */; };
+		86BAD972732675A377DD09E74526A14E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C10AEAF7DF546F22EDFB4A913DDFFE9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C66476001DC1D2E9F8F6A1E07BAB702D /* PPJailbreakDetection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C136779948158BDF209686489C026C96 /* PPJailbreakDetection-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		56E850BE222BA27C7B9E4B7F3F52D8B3 /* PBXContainerItemProxy */ = {
+		A87F956F30860C2E1446B3E27D18D348 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3893FA27F7A5A5736878092D711A80CF;
-			remoteInfo = PPJailbreakDetection2;
+			remoteGlobalIDString = 236AF688F8737BF5CC906D9908C133DF;
+			remoteInfo = PPJailbreakDetection;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03AD79401FD7FE92F04ED7A0404C0677 /* PPJailbreakDetection2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PPJailbreakDetection2.modulemap; sourceTree = "<group>"; };
-		0C13212F75A809C33BFBB915C2A33C75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F7D916AFB70D6562515F94D1A46E716 /* PPJailbreakDetection2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PPJailbreakDetection2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13E0CBA1D84E3A239D9CFC0305BBF903 /* Pods-PPJailbreakDetection2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPJailbreakDetection2_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1F3975365659A8E8461EE97F1BAEF6FC /* Pods-PPJailbreakDetection2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPJailbreakDetection2_Tests-dummy.m"; sourceTree = "<group>"; };
-		467ADAA588E8BCC503E0EC12F727A84A /* Pods-PPJailbreakDetection2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPJailbreakDetection2_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4FF10A150ADCB03A64B286E05750C526 /* Pods-PPJailbreakDetection2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPJailbreakDetection2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		58C296B2221551F1B72EEB0BDCC48579 /* Pods_PPJailbreakDetection2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPJailbreakDetection2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F668EED3B64A64728E63739A0443B2F /* Pods-PPJailbreakDetection2_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPJailbreakDetection2_Tests-resources.sh"; sourceTree = "<group>"; };
-		62E6696079CC67A77AE002E10D681D33 /* Pods-PPJailbreakDetection2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PPJailbreakDetection2_Tests.modulemap"; sourceTree = "<group>"; };
-		6CD339D6EB00B46287ABF134BE0B2E91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82C1B5EE1E8EBBE500294AA2 /* PPJailbreakDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJailbreakDetection.h; sourceTree = "<group>"; };
-		82C1B5EF1E8EBBE500294AA2 /* PPJailbreakDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJailbreakDetection.m; sourceTree = "<group>"; };
-		855DCE65AD148F0B6513F446DC57C229 /* Pods-PPJailbreakDetection2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PPJailbreakDetection2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8829B777329108BFAD82B0D26FFA1243 /* PPJailbreakDetection2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPJailbreakDetection2-prefix.pch"; sourceTree = "<group>"; };
-		8C12E1C930B009F44E2395965D713430 /* Pods-PPJailbreakDetection2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPJailbreakDetection2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA344B0736D4E3E8CEDF6775953F1BED /* PPJailbreakDetection2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPJailbreakDetection2.xcconfig; sourceTree = "<group>"; };
-		BC4EE38AF7F240439A58BE700567B330 /* PPJailbreakDetection2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPJailbreakDetection2-dummy.m"; sourceTree = "<group>"; };
+		031BE1317252890F45CAF23DA32629B8 /* Pods-PPJailbreakDetection_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPJailbreakDetection_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		06815A0F5B131951B93EEB7DDC15E0A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF241A95C9DE45A20FC1A982C12C994 /* Pods-PPJailbreakDetection_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPJailbreakDetection_Tests-resources.sh"; sourceTree = "<group>"; };
+		15A68267F0B590508309FEF2C63AC8C5 /* PPJailbreakDetection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPJailbreakDetection.h; sourceTree = "<group>"; };
+		218CAEA11FB2275B7AD97E77507F7CFD /* PPJailbreakDetection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PPJailbreakDetection.modulemap; sourceTree = "<group>"; };
+		274049308DC9363593889D8DD83D85BE /* Pods-PPJailbreakDetection_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPJailbreakDetection_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		30DBB2034D7E71E39DF5323F5685C9C6 /* PPJailbreakDetection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPJailbreakDetection.m; sourceTree = "<group>"; };
+		3A256CB34AF06E1165155FA3EC84AB2D /* Pods_PPJailbreakDetection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PPJailbreakDetection_Tests.framework; path = "Pods-PPJailbreakDetection_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		425911144844E0DA4030062E1303A1AD /* Pods-PPJailbreakDetection_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPJailbreakDetection_Tests-dummy.m"; sourceTree = "<group>"; };
+		44E668128BB59C4ED8A9A9E63A33AEAF /* Pods-PPJailbreakDetection_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPJailbreakDetection_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		511D343F9BA32EF4789493FF9C4B35FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658A0890CD48442235F3FEE9344CECED /* Pods-PPJailbreakDetection_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PPJailbreakDetection_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B2E6E272B71428A8F2B83C2AAA98492 /* Pods-PPJailbreakDetection_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PPJailbreakDetection_Tests.modulemap"; sourceTree = "<group>"; };
+		6F6470918192C0865AC18C3BAF42C96D /* PPJailbreakDetection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPJailbreakDetection.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2BE3E13B1F3F2A6849F2157CAF04BB9 /* Pods-PPJailbreakDetection_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPJailbreakDetection_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C136779948158BDF209686489C026C96 /* PPJailbreakDetection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPJailbreakDetection-dummy.m"; sourceTree = "<group>"; };
+		CB9BC206A77B998A3D50DAFEFC77D996 /* PPJailbreakDetection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPJailbreakDetection-umbrella.h"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D8EDC8EC029123161BE923F60C60892C /* PPJailbreakDetection2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPJailbreakDetection2-umbrella.h"; sourceTree = "<group>"; };
-		EE718DB7C3E94A93EC764472B3D0ECB1 /* Pods-PPJailbreakDetection2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPJailbreakDetection2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D18EEAF9508F057511BD578013979379 /* PPJailbreakDetection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPJailbreakDetection-prefix.pch"; sourceTree = "<group>"; };
+		D5099537935C9D3FDD9B5625F0A3F526 /* PPJailbreakDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PPJailbreakDetection.framework; path = PPJailbreakDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E518C66104AC49BD24F77E4C65D66648 /* Pods-PPJailbreakDetection_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPJailbreakDetection_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BC7333CD5DF085CEA7BB58F3515C714C /* Frameworks */ = {
+		8EB766B2D4A5D4BB40C1C8BF8E5A0971 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F7D3F9703E0A70D6C8D25A2A9E14308 /* Foundation.framework in Frameworks */,
+				86BAD972732675A377DD09E74526A14E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB42615CCFAC523B3517AAD4D3882038 /* Frameworks */ = {
+		E284A588D6FF33646DAF03EE67ACC709 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D92E98609B8AA613A6C7130A66B0B17A /* Foundation.framework in Frameworks */,
+				C10AEAF7DF546F22EDFB4A913DDFFE9D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D020DE984ABD887270C23BAB4FEF2BD /* Support Files */ = {
+		3CAE397CDF8BACF3A6C2CDAD6BF731B1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0C13212F75A809C33BFBB915C2A33C75 /* Info.plist */,
-				03AD79401FD7FE92F04ED7A0404C0677 /* PPJailbreakDetection2.modulemap */,
-				AA344B0736D4E3E8CEDF6775953F1BED /* PPJailbreakDetection2.xcconfig */,
-				BC4EE38AF7F240439A58BE700567B330 /* PPJailbreakDetection2-dummy.m */,
-				8829B777329108BFAD82B0D26FFA1243 /* PPJailbreakDetection2-prefix.pch */,
-				D8EDC8EC029123161BE923F60C60892C /* PPJailbreakDetection2-umbrella.h */,
+				517C62C1AA10F6DB017249E2108D790B /* Pods-PPJailbreakDetection_Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PPJailbreakDetection2";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2288EB60A569465816725A62893E35F2 /* PPJailbreakDetection */ = {
+		517C62C1AA10F6DB017249E2108D790B /* Pods-PPJailbreakDetection_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				CEC13E741760522F4635903F8B0CD837 /* Classes */,
+				06815A0F5B131951B93EEB7DDC15E0A4 /* Info.plist */,
+				6B2E6E272B71428A8F2B83C2AAA98492 /* Pods-PPJailbreakDetection_Tests.modulemap */,
+				658A0890CD48442235F3FEE9344CECED /* Pods-PPJailbreakDetection_Tests-acknowledgements.markdown */,
+				274049308DC9363593889D8DD83D85BE /* Pods-PPJailbreakDetection_Tests-acknowledgements.plist */,
+				425911144844E0DA4030062E1303A1AD /* Pods-PPJailbreakDetection_Tests-dummy.m */,
+				44E668128BB59C4ED8A9A9E63A33AEAF /* Pods-PPJailbreakDetection_Tests-frameworks.sh */,
+				0BF241A95C9DE45A20FC1A982C12C994 /* Pods-PPJailbreakDetection_Tests-resources.sh */,
+				E518C66104AC49BD24F77E4C65D66648 /* Pods-PPJailbreakDetection_Tests-umbrella.h */,
+				031BE1317252890F45CAF23DA32629B8 /* Pods-PPJailbreakDetection_Tests.debug.xcconfig */,
+				A2BE3E13B1F3F2A6849F2157CAF04BB9 /* Pods-PPJailbreakDetection_Tests.release.xcconfig */,
 			);
-			name = PPJailbreakDetection;
-			path = PPJailbreakDetection2;
-			sourceTree = "<group>";
-		};
-		6BD0268C696EE7D6D0835B9739D04C19 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				98D41F450026EE8C59A38CF4B9B81A75 /* PPJailbreakDetection */,
-			);
-			name = "Development Pods";
+			name = "Pods-PPJailbreakDetection_Tests";
+			path = "Target Support Files/Pods-PPJailbreakDetection_Tests";
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -113,52 +106,42 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		7A71135A4856AD1FE688D77BB6BA90CC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE4BE30700F044684E3F540A514FFE77 /* PPJailbreakDetection */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6BD0268C696EE7D6D0835B9739D04C19 /* Development Pods */,
+				7A71135A4856AD1FE688D77BB6BA90CC /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				A381DC9F8E94FBE78B15F831CF806063 /* Products */,
-				CE4E0F3708417A3B368FCBBBD5ECF50A /* Targets Support Files */,
+				865D4F6A2C1C312B4AB3B3EF6139FFE7 /* Products */,
+				3CAE397CDF8BACF3A6C2CDAD6BF731B1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		98D41F450026EE8C59A38CF4B9B81A75 /* PPJailbreakDetection */ = {
+		865D4F6A2C1C312B4AB3B3EF6139FFE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2288EB60A569465816725A62893E35F2 /* PPJailbreakDetection */,
-				1D020DE984ABD887270C23BAB4FEF2BD /* Support Files */,
-			);
-			name = PPJailbreakDetection;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		A2D1DE4D7463BB2E0A112C300A89ECF9 /* Pods-PPJailbreakDetection2_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6CD339D6EB00B46287ABF134BE0B2E91 /* Info.plist */,
-				62E6696079CC67A77AE002E10D681D33 /* Pods-PPJailbreakDetection2_Tests.modulemap */,
-				855DCE65AD148F0B6513F446DC57C229 /* Pods-PPJailbreakDetection2_Tests-acknowledgements.markdown */,
-				8C12E1C930B009F44E2395965D713430 /* Pods-PPJailbreakDetection2_Tests-acknowledgements.plist */,
-				1F3975365659A8E8461EE97F1BAEF6FC /* Pods-PPJailbreakDetection2_Tests-dummy.m */,
-				467ADAA588E8BCC503E0EC12F727A84A /* Pods-PPJailbreakDetection2_Tests-frameworks.sh */,
-				5F668EED3B64A64728E63739A0443B2F /* Pods-PPJailbreakDetection2_Tests-resources.sh */,
-				13E0CBA1D84E3A239D9CFC0305BBF903 /* Pods-PPJailbreakDetection2_Tests-umbrella.h */,
-				4FF10A150ADCB03A64B286E05750C526 /* Pods-PPJailbreakDetection2_Tests.debug.xcconfig */,
-				EE718DB7C3E94A93EC764472B3D0ECB1 /* Pods-PPJailbreakDetection2_Tests.release.xcconfig */,
-			);
-			name = "Pods-PPJailbreakDetection2_Tests";
-			path = "Target Support Files/Pods-PPJailbreakDetection2_Tests";
-			sourceTree = "<group>";
-		};
-		A381DC9F8E94FBE78B15F831CF806063 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				58C296B2221551F1B72EEB0BDCC48579 /* Pods_PPJailbreakDetection2_Tests.framework */,
-				0F7D916AFB70D6562515F94D1A46E716 /* PPJailbreakDetection2.framework */,
+				3A256CB34AF06E1165155FA3EC84AB2D /* Pods_PPJailbreakDetection_Tests.framework */,
+				D5099537935C9D3FDD9B5625F0A3F526 /* PPJailbreakDetection.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A95D340B0766840356BD6474FA8FD234 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				15A68267F0B590508309FEF2C63AC8C5 /* PPJailbreakDetection.h */,
+				30DBB2034D7E71E39DF5323F5685C9C6 /* PPJailbreakDetection.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -169,80 +152,95 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CE4E0F3708417A3B368FCBBBD5ECF50A /* Targets Support Files */ = {
+		C9B5DFDED0875B4532475BC0CFFA8A85 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A2D1DE4D7463BB2E0A112C300A89ECF9 /* Pods-PPJailbreakDetection2_Tests */,
+				511D343F9BA32EF4789493FF9C4B35FE /* Info.plist */,
+				218CAEA11FB2275B7AD97E77507F7CFD /* PPJailbreakDetection.modulemap */,
+				6F6470918192C0865AC18C3BAF42C96D /* PPJailbreakDetection.xcconfig */,
+				C136779948158BDF209686489C026C96 /* PPJailbreakDetection-dummy.m */,
+				D18EEAF9508F057511BD578013979379 /* PPJailbreakDetection-prefix.pch */,
+				CB9BC206A77B998A3D50DAFEFC77D996 /* PPJailbreakDetection-umbrella.h */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PPJailbreakDetection";
 			sourceTree = "<group>";
 		};
-		CEC13E741760522F4635903F8B0CD837 /* Classes */ = {
+		CE4BE30700F044684E3F540A514FFE77 /* PPJailbreakDetection */ = {
 			isa = PBXGroup;
 			children = (
-				82C1B5EE1E8EBBE500294AA2 /* PPJailbreakDetection.h */,
-				82C1B5EF1E8EBBE500294AA2 /* PPJailbreakDetection.m */,
+				FEFACA32F748B1FF5817E8D8D86772DF /* PPJailbreakDetection */,
+				C9B5DFDED0875B4532475BC0CFFA8A85 /* Support Files */,
 			);
-			path = Classes;
+			name = PPJailbreakDetection;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FEFACA32F748B1FF5817E8D8D86772DF /* PPJailbreakDetection */ = {
+			isa = PBXGroup;
+			children = (
+				A95D340B0766840356BD6474FA8FD234 /* Classes */,
+			);
+			name = PPJailbreakDetection;
+			path = PPJailbreakDetection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5AD9595E6C9867E3610C574B7EA36261 /* Headers */ = {
+		2E39E560D01993444187F76DC84560CF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82C1B5F01E8EBBE500294AA2 /* PPJailbreakDetection.h in Headers */,
-				003646325333B81A8BF311A227366B83 /* Pods-PPJailbreakDetection2_Tests-umbrella.h in Headers */,
+				75CD48088DA49F5888FFF0492046A6FB /* PPJailbreakDetection-umbrella.h in Headers */,
+				3FCFAECE7EFB330C767E7D1C614890F4 /* PPJailbreakDetection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73864D8C550B07BA5B743276006DFBAE /* Headers */ = {
+		54C310248B62967CF294092F4946397E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82C1B5F11E8EBBE500294AA2 /* PPJailbreakDetection.h in Headers */,
-				154E9E9DF561C9757BF24FF270DF014C /* PPJailbreakDetection2-umbrella.h in Headers */,
+				6FB2147E9A9415AD1AD754FF6BC55240 /* Pods-PPJailbreakDetection_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3893FA27F7A5A5736878092D711A80CF /* PPJailbreakDetection2 */ = {
+		236AF688F8737BF5CC906D9908C133DF /* PPJailbreakDetection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83DF24E6D53B899CDDD16E0C8AB2582E /* Build configuration list for PBXNativeTarget "PPJailbreakDetection2" */;
+			buildConfigurationList = 15419B098F17A5B27583A6C8335D2579 /* Build configuration list for PBXNativeTarget "PPJailbreakDetection" */;
 			buildPhases = (
-				8BCAF215E8A811A375D8A5B780B44A19 /* Sources */,
-				BC7333CD5DF085CEA7BB58F3515C714C /* Frameworks */,
-				73864D8C550B07BA5B743276006DFBAE /* Headers */,
+				228F190294EC1943098182DF93B4780C /* Sources */,
+				E284A588D6FF33646DAF03EE67ACC709 /* Frameworks */,
+				2E39E560D01993444187F76DC84560CF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PPJailbreakDetection2;
-			productName = PPJailbreakDetection2;
-			productReference = 0F7D916AFB70D6562515F94D1A46E716 /* PPJailbreakDetection2.framework */;
+			name = PPJailbreakDetection;
+			productName = PPJailbreakDetection;
+			productReference = D5099537935C9D3FDD9B5625F0A3F526 /* PPJailbreakDetection.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FF248C5CAEA88DC3CCF50C3CD43C8C07 /* Pods-PPJailbreakDetection2_Tests */ = {
+		7007B4E9CC7CEFB61888F48484E227B7 /* Pods-PPJailbreakDetection_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 202676F6B92FFFC046797D71FE888D52 /* Build configuration list for PBXNativeTarget "Pods-PPJailbreakDetection2_Tests" */;
+			buildConfigurationList = 641CD5ADD6727CD909C176E349BD8B49 /* Build configuration list for PBXNativeTarget "Pods-PPJailbreakDetection_Tests" */;
 			buildPhases = (
-				8E62E0ECFDED6A50A459ABF23CF91AC6 /* Sources */,
-				EB42615CCFAC523B3517AAD4D3882038 /* Frameworks */,
-				5AD9595E6C9867E3610C574B7EA36261 /* Headers */,
+				76FA3F5A19B4BBC96F975B26F0AA8F34 /* Sources */,
+				8EB766B2D4A5D4BB40C1C8BF8E5A0971 /* Frameworks */,
+				54C310248B62967CF294092F4946397E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C6307E97F9916CFF4CFAE69590FE3886 /* PBXTargetDependency */,
+				30EB15A42D067875EFD90800D9029A1C /* PBXTargetDependency */,
 			);
-			name = "Pods-PPJailbreakDetection2_Tests";
-			productName = "Pods-PPJailbreakDetection2_Tests";
-			productReference = 58C296B2221551F1B72EEB0BDCC48579 /* Pods_PPJailbreakDetection2_Tests.framework */;
+			name = "Pods-PPJailbreakDetection_Tests";
+			productName = "Pods-PPJailbreakDetection_Tests";
+			productReference = 3A256CB34AF06E1165155FA3EC84AB2D /* Pods_PPJailbreakDetection_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -262,50 +260,49 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A381DC9F8E94FBE78B15F831CF806063 /* Products */;
+			productRefGroup = 865D4F6A2C1C312B4AB3B3EF6139FFE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF248C5CAEA88DC3CCF50C3CD43C8C07 /* Pods-PPJailbreakDetection2_Tests */,
-				3893FA27F7A5A5736878092D711A80CF /* PPJailbreakDetection2 */,
+				7007B4E9CC7CEFB61888F48484E227B7 /* Pods-PPJailbreakDetection_Tests */,
+				236AF688F8737BF5CC906D9908C133DF /* PPJailbreakDetection */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8BCAF215E8A811A375D8A5B780B44A19 /* Sources */ = {
+		228F190294EC1943098182DF93B4780C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A53BA9C0818E90B1D0D2126AC661BE7 /* PPJailbreakDetection2-dummy.m in Sources */,
-				82C1B5F31E8EBBE500294AA2 /* PPJailbreakDetection.m in Sources */,
+				C66476001DC1D2E9F8F6A1E07BAB702D /* PPJailbreakDetection-dummy.m in Sources */,
+				7A2620A6240FD298DE99859607B9FF46 /* PPJailbreakDetection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E62E0ECFDED6A50A459ABF23CF91AC6 /* Sources */ = {
+		76FA3F5A19B4BBC96F975B26F0AA8F34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C85067FDAE145FFE02394BD7961E331F /* Pods-PPJailbreakDetection2_Tests-dummy.m in Sources */,
-				82C1B5F21E8EBBE500294AA2 /* PPJailbreakDetection.m in Sources */,
+				8436710B698AE487EE246476938D685D /* Pods-PPJailbreakDetection_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C6307E97F9916CFF4CFAE69590FE3886 /* PBXTargetDependency */ = {
+		30EB15A42D067875EFD90800D9029A1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PPJailbreakDetection2;
-			target = 3893FA27F7A5A5736878092D711A80CF /* PPJailbreakDetection2 */;
-			targetProxy = 56E850BE222BA27C7B9E4B7F3F52D8B3 /* PBXContainerItemProxy */;
+			name = PPJailbreakDetection;
+			target = 236AF688F8737BF5CC906D9908C133DF /* PPJailbreakDetection */;
+			targetProxy = A87F956F30860C2E1446B3E27D18D348 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		44DB29292BB0F21513500EC6D82047F6 /* Release */ = {
+		6D3FECA601CA7048C3C83E5BC844DA2E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA344B0736D4E3E8CEDF6775953F1BED /* PPJailbreakDetection2.xcconfig */;
+			baseConfigurationReference = A2BE3E13B1F3F2A6849F2157CAF04BB9 /* Pods-PPJailbreakDetection_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -318,49 +315,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PPJailbreakDetection2/PPJailbreakDetection2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PPJailbreakDetection2/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PPJailbreakDetection2/PPJailbreakDetection2.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PPJailbreakDetection2;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		585F013A383AEEB8D3F43E269FC69324 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE718DB7C3E94A93EC764472B3D0ECB1 /* Pods-PPJailbreakDetection2_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PPJailbreakDetection2_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PPJailbreakDetection_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PPJailbreakDetection2_Tests/Pods-PPJailbreakDetection2_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PPJailbreakDetection_Tests/Pods-PPJailbreakDetection_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PPJailbreakDetection2_Tests;
+				PRODUCT_NAME = Pods_PPJailbreakDetection_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,9 +419,9 @@
 			};
 			name = Debug;
 		};
-		AB724E7AE5131462E12D68E656CA4B3B /* Debug */ = {
+		CB7F10C61A403D47691B1C13440ECBE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FF10A150ADCB03A64B286E05750C526 /* Pods-PPJailbreakDetection2_Tests.debug.xcconfig */;
+			baseConfigurationReference = 031BE1317252890F45CAF23DA32629B8 /* Pods-PPJailbreakDetection_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -468,18 +434,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PPJailbreakDetection2_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PPJailbreakDetection_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PPJailbreakDetection2_Tests/Pods-PPJailbreakDetection2_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PPJailbreakDetection_Tests/Pods-PPJailbreakDetection_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PPJailbreakDetection2_Tests;
+				PRODUCT_NAME = Pods_PPJailbreakDetection_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,9 +454,40 @@
 			};
 			name = Debug;
 		};
-		D81B046582E8ACEA63E1B8A6BD4857EE /* Debug */ = {
+		DCBE27559C3DBBBFA6232A605EBDB839 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA344B0736D4E3E8CEDF6775953F1BED /* PPJailbreakDetection2.xcconfig */;
+			baseConfigurationReference = 6F6470918192C0865AC18C3BAF42C96D /* PPJailbreakDetection.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PPJailbreakDetection/PPJailbreakDetection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PPJailbreakDetection/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PPJailbreakDetection/PPJailbreakDetection.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PPJailbreakDetection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBFEF1DA520BD7A024D674916C7FE7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6470918192C0865AC18C3BAF42C96D /* PPJailbreakDetection.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -503,14 +500,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PPJailbreakDetection2/PPJailbreakDetection2-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PPJailbreakDetection2/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PPJailbreakDetection/PPJailbreakDetection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PPJailbreakDetection/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PPJailbreakDetection2/PPJailbreakDetection2.modulemap";
+				MODULEMAP_FILE = "Target Support Files/PPJailbreakDetection/PPJailbreakDetection.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PPJailbreakDetection2;
+				PRODUCT_NAME = PPJailbreakDetection;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,11 +519,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		202676F6B92FFFC046797D71FE888D52 /* Build configuration list for PBXNativeTarget "Pods-PPJailbreakDetection2_Tests" */ = {
+		15419B098F17A5B27583A6C8335D2579 /* Build configuration list for PBXNativeTarget "PPJailbreakDetection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB724E7AE5131462E12D68E656CA4B3B /* Debug */,
-				585F013A383AEEB8D3F43E269FC69324 /* Release */,
+				EBFEF1DA520BD7A024D674916C7FE7B7 /* Debug */,
+				DCBE27559C3DBBBFA6232A605EBDB839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -540,11 +537,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83DF24E6D53B899CDDD16E0C8AB2582E /* Build configuration list for PBXNativeTarget "PPJailbreakDetection2" */ = {
+		641CD5ADD6727CD909C176E349BD8B49 /* Build configuration list for PBXNativeTarget "Pods-PPJailbreakDetection_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D81B046582E8ACEA63E1B8A6BD4857EE /* Debug */,
-				44DB29292BB0F21513500EC6D82047F6 /* Release */,
+				CB7F10C61A403D47691B1C13440ECBE0 /* Debug */,
+				6D3FECA601CA7048C3C83E5BC844DA2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
