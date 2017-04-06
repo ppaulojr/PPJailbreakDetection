@@ -45,7 +45,7 @@ bool isSandBoxOkay()
 
 + (BOOL)isJailbroken
 {
-#if !(TARGET_IOS_SIMULATOR)
+#if !(TARGET_OS_SIMULATOR)
     if (jailbrokenFileSystem()) {
         return YES;
     }
