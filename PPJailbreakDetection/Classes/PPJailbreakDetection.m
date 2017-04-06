@@ -24,6 +24,20 @@ bool jailbrokenFileSystem ()
     return false;
 }
 
+bool isSandBoxOkay()
+{
+    int procId = fork();
+    if(!procId){
+        // we should never reach this code, but if we do let's kill the copy
+        exit(0);
+    }
+    if(procId>=0)
+    {
+        return false;
+    }
+    return true;
+}
+
 #import "PPJailbreakDetection.h"
 
 @implementation PPJailbreakDetection
@@ -33,6 +47,9 @@ bool jailbrokenFileSystem ()
 {
 #if !(TARGET_IOS_SIMULATOR)
     if (jailbrokenFileSystem()) {
+        return YES;
+    }
+    if (!isSandBoxOkay()) {
         return YES;
     }
     return NO;
