@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PPJailbreakDetection'
-  s.version          = '1.0.3'
+  s.version          = '2.0.0'
   s.summary          = 'PPJailbreakDetection is a library to detect Jailbroken iOS devices.'
 
 # This description is used to generate tags and improve search results.
@@ -31,15 +31,10 @@ This library detects the main jailbreak methods by inspecting evidence that the 
   s.source           = { :git => 'https://github.com/ppaulojr/PPJailbreakDetection.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/ppaulojr'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'PPJailbreakDetection/Classes/**/*'
+  s.source_files = 'Sources/PPJailbreakDetection/**/*.{h,m}'
+  s.public_header_files = 'Sources/PPJailbreakDetection/include/*.h'
+  s.requires_arc = true
   
-  # s.resource_bundles = {
-  #   'PPJailbreakDetection' => ['PPJailbreakDetection/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

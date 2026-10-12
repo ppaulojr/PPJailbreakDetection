@@ -7,6 +7,7 @@
 //
 
 @import XCTest;
+@import PPJailbreakDetection;
 
 @interface Tests : XCTestCase
 
@@ -28,7 +29,7 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssertFalse([PPJailbreakDetection isJailbroken]);
 }
 
 @end

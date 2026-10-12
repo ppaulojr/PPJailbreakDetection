@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  spm:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test (Swift Package, iOS Simulator)
+        run: |
+          xcodebuild test -scheme PPJailbreakDetection \
+            -destination 'platform=iOS Simulator,name=iPhone 16'
+  cocoapods:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint podspec
+        run: pod lib lint PPJailbreakDetection.podspec
